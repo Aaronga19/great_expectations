@@ -338,7 +338,7 @@
       "expectation_type": "expect_column_values_to_be_of_type",
       "kwargs": {
         "column": "num_calle",
-        "type_": "String"
+        "type_": "Integer"
       },
       "meta": {}
     },
@@ -433,6 +433,263 @@
           "departamento",
           "casa"
         ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "area_terreno",
+        "max_value": 800,
+        "min_value": 0,
+        "mostly": 0.9
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "tipo_negocio",
+        "mostly": 1,
+        "value_set": [
+          "venta"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "num_habitaciones",
+        "max_value": 5,
+        "min_value": 1,
+        "mostly": 0.9
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "precio_admin",
+        "max_value": 20000,
+        "min_value": 0,
+        "mostly": 0.9
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "moneda_admin",
+        "mostly": 0.9,
+        "value_set": [
+          "MX",
+          "MN"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "p_mail_contact",
+        "mostly": 0.98,
+        "regex": "[A-Za-z0-9]@[A-Za-z0-9].[a-z]"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "latitud",
+        "max_value": 50,
+        "min_value": 0.1,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "longitud",
+        "max_value": -19,
+        "min_value": -118,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "tipo_inmueble_id",
+        "max_value": 4,
+        "min_value": 0,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "area_final",
+        "max_value": 1000,
+        "min_value": 10,
+        "mostly": 0.99
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "num_garajes",
+        "max_value": 5,
+        "min_value": 0,
+        "mostly": 0.99
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "num_ascensores",
+        "max_value": 5,
+        "min_value": 0,
+        "mostly": 0.99
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "total_banos",
+        "max_value": 5,
+        "min_value": 0,
+        "mostly": 0.99
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "banos",
+        "max_value": 5,
+        "min_value": 0,
+        "mostly": 0.99
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "medios_banos",
+        "max_value": 5,
+        "min_value": 0,
+        "mostly": 0.99
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "piso",
+        "max_value": 5,
+        "min_value": 0,
+        "mostly": 0.95
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "precio_renta",
+        "max_value": 100000,
+        "min_value": 2000,
+        "mostly": 0.95
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "valormt2",
+        "max_value": 300000,
+        "min_value": 100,
+        "mostly": 0.95
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "anios_antiguedad",
+        "max_value": 100,
+        "min_value": 1,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "telefono_vendedor",
+        "max_value": 14,
+        "min_value": 10,
+        "mostly": 0.99
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "remates",
+        "max_value": 1,
+        "min_value": 0,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "telefono_vendedor_2",
+        "max_value": 14,
+        "min_value": 10,
+        "mostly": 0.99
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "ciudad_id",
+        "max_value": 15200,
+        "min_value": 15000,
+        "mostly": 0.9
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "anio_venta",
+        "max_value": 2022,
+        "min_value": 2018,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "label_zm",
+        "regex": "zm[a-z0-9]"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_unique",
+      "kwargs": {
+        "column": "unique_id"
       },
       "meta": {}
     }
