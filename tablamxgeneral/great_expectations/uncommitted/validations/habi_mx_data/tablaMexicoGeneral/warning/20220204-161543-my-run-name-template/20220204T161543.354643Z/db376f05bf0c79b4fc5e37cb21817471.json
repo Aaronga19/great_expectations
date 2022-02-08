@@ -1,0 +1,1092 @@
+{
+  "evaluation_parameters": {},
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {},
+      "data_asset_name": "habi_mx_data.tablaMexicoGeneral",
+      "data_connector_name": "default_inferred_data_connector_name",
+      "datasource_name": "ds_tablamxgeneral"
+    },
+    "batch_markers": {
+      "ge_load_time": "20220204T161557.318432Z"
+    },
+    "batch_spec": {
+      "batch_identifiers": {},
+      "data_asset_name": "habi_mx_data.tablaMexicoGeneral",
+      "schema_name": "habi_mx_data",
+      "table_name": "tablaMexicoGeneral",
+      "type": "table"
+    },
+    "expectation_suite_name": "habi_mx_data.tablaMexicoGeneral.warning",
+    "great_expectations_version": "0.14.3",
+    "run_id": {
+      "run_name": "20220204-161543-my-run-name-template",
+      "run_time": "2022-02-04T16:15:43.354643+00:00"
+    },
+    "validation_time": "20220204T161621.636314Z"
+  },
+  "results": [
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_columns_to_match_ordered_list",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column_list": [
+            "inmueble_id",
+            "tipo_inmueble",
+            "area_terreno",
+            "tipo_negocio",
+            "num_habitaciones",
+            "precio_admin",
+            "moneda_admin",
+            "last_ask_price",
+            "nombre_articulo",
+            "nombre_vendedor",
+            "descripcion",
+            "url",
+            "latitud",
+            "longitud",
+            "tipo_inmueble_id",
+            "direccion",
+            "area_final",
+            "alcaldia",
+            "zona_mediana_id",
+            "num_garajes",
+            "num_ascensores",
+            "total_banos",
+            "banos",
+            "medios_banos",
+            "piso",
+            "last_ask_price_mxn",
+            "precio_renta",
+            "valormt2",
+            "fuente_id",
+            "anios_antiguedad",
+            "telefono_vendedor",
+            "fecha_creacion",
+            "remates",
+            "zip_code",
+            "num_calle",
+            "colonia",
+            "telefono_vendedor_2",
+            "obra_gris",
+            "ciudad_id",
+            "anio_venta",
+            "label_zm",
+            "duplicated",
+            "unique_id",
+            "p_mail_contact"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": [
+          "inmueble_id",
+          "tipo_inmueble",
+          "area_terreno",
+          "tipo_negocio",
+          "num_habitaciones",
+          "precio_admin",
+          "moneda_admin",
+          "last_ask_price",
+          "nombre_articulo",
+          "nombre_vendedor",
+          "descripcion",
+          "url",
+          "latitud",
+          "longitud",
+          "tipo_inmueble_id",
+          "direccion",
+          "area_final",
+          "alcaldia",
+          "zona_mediana_id",
+          "num_garajes",
+          "num_ascensores",
+          "total_banos",
+          "banos",
+          "medios_banos",
+          "piso",
+          "last_ask_price_mxn",
+          "precio_renta",
+          "valormt2",
+          "fuente_id",
+          "anios_antiguedad",
+          "telefono_vendedor",
+          "fecha_creacion",
+          "remates",
+          "zip_code",
+          "num_calle",
+          "colonia",
+          "telefono_vendedor_2",
+          "obra_gris",
+          "ciudad_id",
+          "anio_venta",
+          "label_zm",
+          "duplicated",
+          "unique_id",
+          "p_mail_contact"
+        ]
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "max_value": 2100000,
+          "min_value": 2000000
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 2070442
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "inmueble_id",
+          "type_": "Integer"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Integer"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "tipo_inmueble",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "area_terreno",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "tipo_negocio",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "num_habitaciones",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "precio_admin",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "moneda_admin",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "last_ask_price",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "nombre_articulo",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "nombre_vendedor",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "descripcion",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "url",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "latitud",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "longitud",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "tipo_inmueble_id",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "direccion",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "area_final",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "alcaldia",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "zona_mediana_id",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "num_garajes",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "num_ascensores",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "total_banos",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "banos",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "medios_banos",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "piso",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "last_ask_price_mxn",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "precio_renta",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "valormt2",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "fuente_id",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "anios_antiguedad",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "telefono_vendedor",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "fecha_creacion",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "remates",
+          "type_": "Integer"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Integer"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "zip_code",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "num_calle",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "colonia",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "telefono_vendedor_2",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "obra_gris",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "ciudad_id",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "anio_venta",
+          "type_": "Numeric"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Float"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "label_zm",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "duplicated",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "unique_id",
+          "type_": "Integer"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "Integer"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "db376f05bf0c79b4fc5e37cb21817471",
+          "column": "p_mail_contact",
+          "type_": "String"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "String"
+      },
+      "success": true
+    }
+  ],
+  "statistics": {
+    "evaluated_expectations": 46,
+    "success_percent": 100.0,
+    "successful_expectations": 46,
+    "unsuccessful_expectations": 0
+  },
+  "success": true
+}
