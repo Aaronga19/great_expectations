@@ -1,0 +1,52 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "suite_bizops",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "lugar",
+          "tipo_operacion",
+          "rubro",
+          "_202201",
+          "_202202",
+          "_202203",
+          "unidad_de_medida",
+          "temporalidad",
+          "comentarios",
+          "responsable",
+          "create_at",
+          "update_at",
+          "source_data",
+          "__index_level_0__"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "max_value": 48,
+        "min_value": 48
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "supuestos_unit_economics.bizops",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "datasource_supuestos_unit",
+          "limit": 1000
+        },
+        "citation_date": "2022-01-28T19:28:27.706782Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.14.3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/home/jupyter/expectations_tablamxgeneral/great_expectations/uncommitted",
+  "password": false,
+  "pid": 29489,
+  "port": 8888,
+  "secure": false,
+  "sock": "",
+  "token": "dfe8f9a67ffbb9cf3b9a11718af5bed9e43935e5df7ea073",
+  "url": "http://localhost:8888/"
+}

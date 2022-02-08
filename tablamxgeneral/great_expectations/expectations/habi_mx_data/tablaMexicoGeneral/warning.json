@@ -1,0 +1,456 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "habi_mx_data.tablaMexicoGeneral.warning",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "inmueble_id",
+          "tipo_inmueble",
+          "area_terreno",
+          "tipo_negocio",
+          "num_habitaciones",
+          "precio_admin",
+          "moneda_admin",
+          "last_ask_price",
+          "nombre_articulo",
+          "nombre_vendedor",
+          "descripcion",
+          "url",
+          "latitud",
+          "longitud",
+          "tipo_inmueble_id",
+          "direccion",
+          "area_final",
+          "alcaldia",
+          "zona_mediana_id",
+          "num_garajes",
+          "num_ascensores",
+          "total_banos",
+          "banos",
+          "medios_banos",
+          "piso",
+          "last_ask_price_mxn",
+          "precio_renta",
+          "valormt2",
+          "fuente_id",
+          "anios_antiguedad",
+          "telefono_vendedor",
+          "fecha_creacion",
+          "remates",
+          "zip_code",
+          "num_calle",
+          "colonia",
+          "telefono_vendedor_2",
+          "obra_gris",
+          "ciudad_id",
+          "anio_venta",
+          "label_zm",
+          "duplicated",
+          "unique_id",
+          "p_mail_contact"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "max_value": 2100000,
+        "min_value": 2000000
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "inmueble_id",
+        "type_": "Integer"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "tipo_inmueble",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "area_terreno",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "tipo_negocio",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "num_habitaciones",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "precio_admin",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "moneda_admin",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "last_ask_price",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "nombre_articulo",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "nombre_vendedor",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "descripcion",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "url",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "latitud",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "longitud",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "tipo_inmueble_id",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "direccion",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "area_final",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "alcaldia",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "zona_mediana_id",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "num_garajes",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "num_ascensores",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "total_banos",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "banos",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "medios_banos",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "piso",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "last_ask_price_mxn",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "precio_renta",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "valormt2",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "fuente_id",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "anios_antiguedad",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "telefono_vendedor",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "fecha_creacion",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "remates",
+        "type_": "Integer"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "zip_code",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "num_calle",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "colonia",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "telefono_vendedor_2",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "obra_gris",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "ciudad_id",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "anio_venta",
+        "type_": "Numeric"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "label_zm",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "duplicated",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "unique_id",
+        "type_": "Integer"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "p_mail_contact",
+        "type_": "String"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "inmueble_id",
+        "max_value": 100000000,
+        "min_value": 30000,
+        "mostly": 0.9
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "tipo_inmueble",
+        "mostly": 1,
+        "value_set": [
+          "departamento",
+          "casa"
+        ]
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "habi_mx_data.tablaMexicoGeneral",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "ds_tablamxgeneral",
+          "limit": 1000
+        },
+        "citation_date": "2022-02-03T23:16:29.254280Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.14.3"
+  }
+}
